@@ -88,7 +88,15 @@
     "home": "Home",
     "about": "About",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "Dashboard": "Dashboard",
+    "Transaksi": "Transactions",
+    "Chat Room": "Chat Room",
+    "Pricelist": "Pricelist"
+  },
+  "Auth": {
+    "login": "Login",
+    "logout": "Logout"
   },
   "NotFoundPage": {
     "title": "Page Not Found",

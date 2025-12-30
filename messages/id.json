@@ -88,7 +88,15 @@
     "home": "Beranda",
     "about": "Tentang",
     "projects": "Proyek",
-    "contact": "Kontak"
+    "contact": "Kontak",
+    "Dashboard": "Dashboard",
+    "Transaksi": "Transaksi",
+    "Chat Room": "Ruang Chat",
+    "Pricelist": "Daftar Harga"
+  },
+  "Auth": {
+    "login": "Masuk",
+    "logout": "Keluar"
   },
   "NotFoundPage": {
     "title": "Halaman Tidak Ditemukan",
