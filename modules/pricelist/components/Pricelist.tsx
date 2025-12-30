@@ -91,7 +91,7 @@ const Pricelist = () => {
   };
 
   const addToCart = async (productId: string) => {
-    if (!session?.user?.id) {
+    if (!session?.user) {
       alert("Please login to add items to cart");
       return;
     }
