@@ -39,7 +39,7 @@ const Dashboard = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (session?.user?.id) {
+    if (session?.user) {
       fetchDashboardData();
     }
   }, [session]);
