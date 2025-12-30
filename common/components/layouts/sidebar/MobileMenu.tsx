@@ -5,7 +5,6 @@ import { MENU_ITEMS } from "@/common/constants/menu";
 import Breakline from "../../elements/Breakline";
 
 import Menu from "./Menu";
-import SmartTalkUserInfo from "./SmartTalkUserInfo";
 
 const MobileMenu = () => {
   const filteredMenu = MENU_ITEMS?.filter((item) => item?.isShow);
@@ -19,7 +18,6 @@ const MobileMenu = () => {
       <div>
         <Breakline />
         <Menu list={filteredMenu} />
-        <SmartTalkUserInfo />
       </div>
     </motion.div>
   );
