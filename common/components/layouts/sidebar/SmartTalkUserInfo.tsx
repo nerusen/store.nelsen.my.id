@@ -13,7 +13,6 @@ const SmartTalkUserInfo = () => {
   const { data: session } = useSession();
   const { hideMenu } = useMenu();
   const t = useTranslations("Auth");
-  const t = useTranslations("Auth");
 
   if (!session) {
     return (
