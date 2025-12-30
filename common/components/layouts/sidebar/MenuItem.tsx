@@ -10,7 +10,6 @@ import { useSession, signOut } from "next-auth/react";
 
 import { MenuItemProps } from "@/common/types/menu";
 import { useMenu } from "@/common/stores/menu";
-import SpotlightCard from "../../elements/SpotlightCard";
 
 const MenuItem = ({
   title,
