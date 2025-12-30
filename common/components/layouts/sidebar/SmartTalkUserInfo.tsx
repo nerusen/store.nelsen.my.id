@@ -3,6 +3,7 @@
 import { useSession, signOut } from "next-auth/react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 import Button from "../../elements/Button";
 import Breakline from "../../elements/Breakline";
@@ -24,7 +25,7 @@ const SmartTalkUserInfo = () => {
         <div className="px-4 py-2">
           <Link href="/login" onClick={hideMenu}>
             <Button className="w-full text-sm">
-              Login
+              {t("login")}
             </Button>
           </Link>
         </div>
