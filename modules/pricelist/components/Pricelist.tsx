@@ -35,7 +35,7 @@ const Pricelist = () => {
 
   useEffect(() => {
     fetchProducts();
-    if (session?.user?.id) {
+    if (session?.user) {
       fetchCart();
     }
   }, [session]);
