@@ -1,1 +1,39 @@
 {
+  "DashboardPage": {
+    "title": "Dashboard",
+    "description": "My activity dashboard as software engineer"
+  },
+  "TransaksiPage": {
+    "title": "Transactions",
+    "description": "Your transaction history"
+  },
+  "ChatRoomPage": {
+    "title": "Chat Room",
+    "description": "Real-time chat room for community discussions"
+  },
+  "PricelistPage": {
+    "title": "Pricelist",
+    "description": "Product and service price list"
+  },
+  "Footer": {
+    "description": "© 2024 Nelsen Chandra. All rights reserved."
+  },
+  "LocaleSwitcher": {
+    "selectLanguage": "Select Language"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist.",
+    "button": "Back to Home"
+  },
+  "SmartTalkUserInfo": {
+    "description": "Try our AI assistant for instant help",
+    "button": "Start Smart Talk"
+  }
+}
