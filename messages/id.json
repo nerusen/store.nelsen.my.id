@@ -1,19 +1,82 @@
 {
   "DashboardPage": {
     "title": "Dashboard",
-    "description": "Dashboard aktivitas saya sebagai software engineer"
+    "description": "Dashboard aktivitas saya sebagai software engineer",
+    "umami": {
+      "overview": {
+        "title": "Analitik Website",
+        "visitors": "Pengunjung",
+        "pageviews": "Tampilan Halaman",
+        "bounce_rate": "Tingkat Pentalan"
+      }
+    },
+    "monkeytype": {
+      "title": "Kecepatan Mengetik",
+      "wpm": "KPM",
+      "accuracy": "Akurasi",
+      "leaderboard": "Papan Peringkat"
+    },
+    "wakatime": {
+      "title": "Aktivitas Coding",
+      "hours": "Jam",
+      "languages": "Bahasa"
+    },
+    "codewars": {
+      "title": "Codewars",
+      "rank": "Peringkat",
+      "honor": "Penghargaan",
+      "challenges": "Tantangan"
+    },
+    "github": {
+      "title": "Kontribusi GitHub",
+      "contributions": "Kontribusi",
+      "repositories": "Repositori"
+    }
   },
   "TransaksiPage": {
     "title": "Transaksi",
     "description": "Riwayat transaksi Anda"
   },
+  "Transaksi": {
+    "title": "Riwayat Transaksi",
+    "description": "Lihat semua transaksi Anda",
+    "no_transactions": "Tidak ada transaksi ditemukan",
+    "status": {
+      "pending": "Menunggu",
+      "process": "Sedang Diproses",
+      "completed": "Selesai"
+    }
+  },
   "ChatRoomPage": {
     "title": "Ruang Chat",
-    "description": "Ruang chat real-time untuk diskusi komunitas"
+    "description": "Ruang chat real-time untuk diskusi komunitas",
+    "sign_in": {
+      "title": "Masuk Diperlukan",
+      "description": "Silakan masuk untuk bergabung dalam chat",
+      "button": "Masuk"
+    },
+    "widget": {
+      "title": "Widget Chat",
+      "placeholder": "Ketik pesan Anda...",
+      "send": "Kirim"
+    },
+    "demo_account": {
+      "title": "Akun Demo",
+      "description": "Coba chat dengan akun demo",
+      "username": "Nama Pengguna",
+      "create": "Buat Akun Demo"
+    }
   },
   "PricelistPage": {
     "title": "Daftar Harga",
     "description": "Daftar harga produk dan layanan"
+  },
+  "Pricelist": {
+    "title": "Katalog Produk",
+    "description": "Jelajahi produk dan layanan kami",
+    "add_to_cart": "Tambah ke Keranjang",
+    "view_details": "Lihat Detail",
+    "no_products": "Tidak ada produk tersedia"
   },
   "Footer": {
     "description": "© 2024 Nelsen Chandra. Seluruh hak cipta."

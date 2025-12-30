@@ -1,19 +1,82 @@
 {
   "DashboardPage": {
     "title": "Dashboard",
-    "description": "My activity dashboard as software engineer"
+    "description": "My activity dashboard as software engineer",
+    "umami": {
+      "overview": {
+        "title": "Website Analytics",
+        "visitors": "Visitors",
+        "pageviews": "Pageviews",
+        "bounce_rate": "Bounce Rate"
+      }
+    },
+    "monkeytype": {
+      "title": "Typing Speed",
+      "wpm": "WPM",
+      "accuracy": "Accuracy",
+      "leaderboard": "Leaderboard"
+    },
+    "wakatime": {
+      "title": "Coding Activity",
+      "hours": "Hours",
+      "languages": "Languages"
+    },
+    "codewars": {
+      "title": "Codewars",
+      "rank": "Rank",
+      "honor": "Honor",
+      "challenges": "Challenges"
+    },
+    "github": {
+      "title": "GitHub Contributions",
+      "contributions": "Contributions",
+      "repositories": "Repositories"
+    }
   },
   "TransaksiPage": {
     "title": "Transactions",
     "description": "Your transaction history"
   },
+  "Transaksi": {
+    "title": "Transaction History",
+    "description": "View all your transactions",
+    "no_transactions": "No transactions found",
+    "status": {
+      "pending": "Pending",
+      "process": "In Process",
+      "completed": "Completed"
+    }
+  },
   "ChatRoomPage": {
     "title": "Chat Room",
-    "description": "Real-time chat room for community discussions"
+    "description": "Real-time chat room for community discussions",
+    "sign_in": {
+      "title": "Sign In Required",
+      "description": "Please sign in to join the chat",
+      "button": "Sign In"
+    },
+    "widget": {
+      "title": "Chat Widget",
+      "placeholder": "Type your message...",
+      "send": "Send"
+    },
+    "demo_account": {
+      "title": "Demo Account",
+      "description": "Try the chat with a demo account",
+      "username": "Username",
+      "create": "Create Demo Account"
+    }
   },
   "PricelistPage": {
     "title": "Pricelist",
     "description": "Product and service price list"
+  },
+  "Pricelist": {
+    "title": "Product Catalog",
+    "description": "Browse our products and services",
+    "add_to_cart": "Add to Cart",
+    "view_details": "View Details",
+    "no_products": "No products available"
   },
   "Footer": {
     "description": "© 2024 Nelsen Chandra. All rights reserved."
