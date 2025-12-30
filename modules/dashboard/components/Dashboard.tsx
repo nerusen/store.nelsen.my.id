@@ -5,7 +5,6 @@ import { useSession } from 'next-auth/react';
 import Breakline from "@/common/components/elements/Breakline";
 import UserProfile from "./UserProfile";
 import FeaturedSections from "./FeaturedSections";
-import ContactButtons from "./ContactButtons";
 import TransactionChart from "./TransactionChart";
 import StatsOverview from "./StatsOverview";
 
@@ -18,8 +17,6 @@ const Dashboard = () => {
       <UserProfile />
       <Breakline className="my-8" />
       <FeaturedSections />
-      <Breakline className="my-8" />
-      <ContactButtons />
       <Breakline className="my-8" />
       <TransactionChart />
       <Breakline className="my-8" />
